@@ -11,6 +11,9 @@
   <h4>
     {{ activo ? "estoy activo" : "estoy inactivo"  }}
   </h4>
+  <br>
+  <br>
+  <h1>{{ Position }}</h1>
 </template>
 
 <style>
@@ -35,4 +38,5 @@
   const styleColor = "color: red";
   const arrayColors = ["blue", "red", "green"];
   const activo = false;
+  let Position = arrayColors[0];
 </script>
